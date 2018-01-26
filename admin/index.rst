@@ -9,3 +9,4 @@ Administration
    images
    vmware
    security
+   auth
