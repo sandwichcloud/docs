@@ -10,3 +10,4 @@ Administration
    vmware
    security
    auth
+   config
