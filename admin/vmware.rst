@@ -4,6 +4,14 @@ VMware
 Account Permissions
 -------------------
 
+Firewall
+--------
+
+All hosts in all Clusters connected to Sandwich Cloud Zones must allow the following
+firewall rule :code:`VM serial port connected to vSPC`.
+
+All hosts must also be able to communicate with the Sandwich Cloud Metadata Service.
+
 VMotion
 -------
 
