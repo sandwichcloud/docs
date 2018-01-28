@@ -6,7 +6,7 @@ Fernet Keys & Tokens
 
 Sandwich Cloud uses `Fernet <https://cryptography.io/en/latest/fernet/>`_ tokens
 for authorization. These tokens require a key to be encrypted. The key must
-be a 32-bit base64 encoded string. Multiple Fernet Keys can be used to allow key
+be a 32-byte base64 encoded string. Multiple Fernet Keys can be used to allow key
 rotation.
 
 These tokens contain information about the user or service account and what roles
